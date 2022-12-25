@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Pucuk Gumbili</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="header">
+            <div class="box1"></div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ANIME</a></li>
+                    <li><a href="#">FILM</a></li>
+                </ul>
+            </div>
+            <div class="box2"><p>PUCUK Gumbili</p></div>
+            <div class="box3"></div>
+            <div class="signin"><p>SIGN IN</p></div>
+        </div>
+
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        <button class="openbtn" onclick="openNav()">></button>
+
+        <div class="box-utama"></div>
+        <div class="box-utama"></div>
+    </div> 
+    
+
+    
+
+    <script>
+    function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+    }
+        
+    function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+    }
+    </script>
+</body>
+</html>
